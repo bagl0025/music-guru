@@ -1,0 +1,119 @@
+/* color palette needs to be edited */
+/* modified for mobile device */
+/* :root has this color palette can mod */
+/* palette one color missing: #206a6b #a4ece0 #f0f7a9 #abcb67 #6cb26c */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Button Color */
+  --primary-color:#7b2524;
+  --secondary-color: #e76043;
+  --tertiary-color: #ec9a72;
+  /* General Color */
+  --quaternary-color: #ebd397;
+  --quinary-color: #cbd76b;
+  --senary-color: #6a552a;;
+  --font-size-lg: 48px;
+  --font-size-md: 24px;
+  --font-size-sm: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--senary-color);
+}
+
+html {
+  background-color: var(--quaternary-color);
+}
+
+body {
+  box-sizing: border-box;
+}
+
+header {
+  background: var(--quinary-color);
+  color: var(--senary-color);
+}
+
+.artist-name{
+  top: 0px;
+  font-size: var(--font-size-lg);
+}
+
+.title-section {
+  color: var(--secondary-color);
+  font-size: var(--font-size-md);
+  font-weight: bold;
+}
+
+.title-song {
+  color: var(--quinary-color);
+  font-size: var(--font-size-md);
+  font-weight: bold;
+  background: var(--primary-color);
+  border-radius: 12px;
+  box-shadow: 0 3px var(--tertiary-color);
+}
+.song-lyrics {
+  color: var(--senary-color);
+  font-weight: bold;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px var(--tertiary-color);
+}
+
+.image {
+  min-height: 300px;
+  width: auto;
+  background-color: var(--senary-color);
+}
+
+.genre {
+  margin: 3px;
+  padding: 10px 15px;
+  background: var(--quinary-color);
+  color: var(--tertiary-color);
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 3px var(--tertiary-color);
+}
+
+.form {
+  padding: 10px;
+  background: var(--quinary-color);
+}
+
+/* Footer Styling */
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background: var(--quinary-color);
+  color: var(--senary-color);
+}
+
+/* Button Styling */
+button{
+  background: var(--primary-color) !important;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  margin: 3px;
+  padding: 10px 15px;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: 12px;
+  box-shadow: 0 3px var(--tertiary-color);
+}
+
+.btn:hover {
+  box-shadow: 0 2px var(--secondary-color);
+  background: var(--secondary-color);
+  top: -2px;
+}
