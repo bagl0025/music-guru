@@ -48,3 +48,6 @@ https://bagl0025.github.io/music-guru/
 
 ## GitHub Location
 https://github.com/bagl0025/music-guru
+
+## Authored by "Team 3"
+Omar Wright, Mark Moehring, Brynn Kiloran, Brian Bagley, Roda Hassan, Marcos Luis Castillo
