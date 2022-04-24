@@ -1,27 +1,31 @@
-# Challenge 8 | Group Project #1: Music Guru
+# Music Guru
 
-![](./assets/images/00-temp-avocado-background.jpg)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-# Our Features:
-## User Story:
-* AS AN music lover who's always on the go
-* I WANT search up the my favorite musicians
-* SO THAT I can stay up-to-date on their information
+## About
+Music Guru is a mobile first web app that allows you to search for an artist. It gives you a website link to listen to their music on last.fm and a list of their genres. If you enter a song it will retrieve the lyrics if they are online and available.
+
+## Motivation for development
+Have a place to find various information about music We wanted to make this page to display stuff we want to know about someone in one easy to access webpage.
+
+## User Story
+AS A music lover who’s always on the go
+
+I WANT to search up my favorite musicians
+
+SO THAT I can stay up-to-date on their information
 
 ## Core Feature:
 - Finding Musicians' Information
-
-## MVP:
 - Genre
-- Ratings/Comments (needs more)
-- Net Worth (needs more)
 - Artist Website
-- Social Media
-- Band Members
-- Lyrics (relative search - finding a word)
-- Sub Searches (specific info)
+- Song Lyrics
 
-## Extra:
+## Future Development:
 - Make Playlist
 - Categories (single, mixtape, album, vinyl)
 - Finding Concerts or Venues
@@ -33,21 +37,14 @@
 - Labels Signed To
 - Charity
 
-# Project Requirement:
-* Use a CSS framework other than Bootstrap.
-* Be deployed to GitHub Pages.
-* Be interactive (i.e., accept and respond to user input).
-* Use at least two server-side APIs.
-* Does not use alerts, confirms, or prompts (use modals).
-* Use client-side storage to store persistent data.
-* Be responsive.
-* Have a polished UI.
+## Usage
+When you enter an artist's name their information is retrieved and you are presented with the option to enter a specific song. If you enter a song the lyrics will be displayed if they are found. Your search history is saved and displayed at the bottom of the page and can be hidden.
 
 ## Screenshoot
-<!-- ![Final mock up of Music Guru](./assets/images/) -->
+![Music Guru User Interface](./assets/images/music_guru.png)
 
 ## Deployed Application
-https://omarwright07.github.io/music-guru/
+https://bagl0025.github.io/music-guru/
 
 ## GitHub Location
-https://github.com/omarwright07/music-guru
+https://github.com/bagl0025/music-guru
